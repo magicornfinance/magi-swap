@@ -1,0 +1,66 @@
+export const TimelineData = [
+  {
+    title: '2021 Q1',
+    content: [
+      'Swapr Alpha Launch',
+      'DXdao-supplied liquidity',
+      'Swapr on xDai',
+      'Eco-Routing Beta',
+      'Uniswap, Sushi, Honeyswap, LevinSwap',
+      'Network Switcher v1',
+      'Swapr redesign',
+    ],
+    releaseTag: 'ALPHA',
+    past: true,
+  },
+  {
+    title: 'Q2-Q4',
+    content: [
+      'DIY Farming',
+      'Farming / Rewards',
+      'SWAPR Token',
+      'Carrot Integration',
+      'Arbitrum Integration',
+      'Network Switcher v2',
+      'Swapr L1-L2 Bridge',
+    ],
+    releaseTag: 'BETA',
+    past: true,
+  },
+  {
+    title: '2022 Q1',
+    content: ['SWPR Single token Staking', 'Seperation of Rewards and pools', 'Landing Page'],
+    releaseTag: 'BETA',
+    past: true,
+  },
+  {
+    title: 'Q2',
+    content: [
+      'Socket, Omni, Connext & Xdai Bridge',
+      'Eco Router & Bridge on Polygon',
+      'DIY Farming 1.5',
+      'Advanced Trading',
+      'Curve, 0x & CoW Protocol integration',
+    ],
+    releaseTag: 'BETA',
+    current: true,
+  },
+  {
+    title: 'Q3-Q4',
+    content: ['Balancer Integration', 'Uniswap V3 Int.', 'Limit Orders', 'User Dashboard', 'veSWPR', 'SWPR Governance'],
+    releaseTag: 'V1',
+  },
+  {
+    title: 'Soon™',
+    content: [
+      'Bentobox/Bancor',
+      'ZKSync',
+      'Eco Routing V2',
+      'Bridge Swap',
+      'LP Zapping',
+      'Sushi Trident Fork',
+      'More Eco Routing markets',
+    ],
+    releaseTag: 'V1.5',
+  },
+]

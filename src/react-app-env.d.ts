@@ -1,0 +1,35 @@
+/// <reference types="react-scripts" />
+
+declare module 'jazzicon' {
+  export default function (diameter: number, seed: number): HTMLElement
+}
+
+declare module 'fortmatic'
+
+interface EthereumProviderRequestArguments {
+  method: string
+  params?: unknown[] | object
+}
+
+interface Window {
+  ethereum?: {
+    isMetaMask?: true
+    on?: (...args: any[]) => void
+    removeListener?: (...args: any[]) => void
+    request?: (args: EthereumProviderRequestArguments) => Promise<unknown>
+    isCoinbaseWallet?: boolean
+  }
+  web3?: Record<string, unknown>
+}
+
+declare module 'content-hash' {
+  export function decode(x: string): string
+  export function getCodec(x: string): string
+}
+
+declare module 'multihashes' {
+  export function decode(buff: Uint8Array): { code: number; name: string; length: number; digest: Uint8Array }
+  export function toB58String(hash: Uint8Array): string
+}
+
+declare module 'toformat'
